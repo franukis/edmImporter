@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "product": "F16V-PoBit Installer",
+  "version": "1.1.20",
+  "file_version": "1.1.20.0",
+  "source": "G:\\AI\\GPT\\F16V\\改造\\发布更新\\安装器GitHub限流回退20261029\\app",
+  "source_sha256": "e12ebdd8d0d743a3daddf303aa5a3a5f99d35d1adfb581005f0749fd05c6b994",
+  "executable_sha256": "8873213684702ae9e3a92616f92adb8f7a1cad20ae92587b7aa2fc43616610e0",
+  "content_sha256": "953669646d91337f3ae7e2584e6ceecd660f00865bdcfa02c252802b7da1ecd7",
+  "capabilities": {
+    "core_bundled_connection": 1,
+    "fixed_connector_configuration": 2,
+    "editable_component_payloads": 1,
+    "version_based_updates": 1,
+    "same_version_apply": 1
+  },
+  "based_on": {
+    "path": "改造/发布更新/安装器WarHUD默认CG20261029/Release/F16V-PoBit",
+    "source": "改造/发布更新/安装器WarHUD默认CG20261029/app",
+    "sha256": "44a5ca8a0107e482938bbb4faa29ce6109eb7ee1a8144ce14c2aa8d33d247851",
+    "version": "1.1.19",
+    "version_metadata": "改造/发布更新/安装器WarHUD默认CG20261029/Release/F16V-PoBit/Software/Version.json",
+    "record": "LOG/安装器/WarHUD默认CG20261029/软件投递.json",
+    "source_sha256": "20cfb74b84733c581700621d6648957ae78c9750baaabd2e91f693edee9263d8"
+  },
+  "status": "built",
+  "built_at": "2026-10-29T19:13:03+08:00"
+}

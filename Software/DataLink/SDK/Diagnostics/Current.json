@@ -1,0 +1,2 @@
+{
+"schema":1,"component":"DataLink","build":"user-status-2","status":"FAIL","connected":false,"complete":false,"pid":11436,"process_created":134378370893016473,"observed_tick_ms":23446812,"session":0,"sequence":0,"sampled_at":0,"reason":"not_sampled","information":"","missing":["data.session_and_sample","data.navigation","data.sensor","data.focus","data.weapons","data.fuel","data.display_power","source.connection"]}

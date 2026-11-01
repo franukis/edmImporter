@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "product": "F16V-PoBit Installer",
+  "version": "1.1.20",
+  "source_sha256": "e12ebdd8d0d743a3daddf303aa5a3a5f99d35d1adfb581005f0749fd05c6b994",
+  "build_tool": "PyInstaller",
+  "mode": "onedir",
+  "upx": false,
+  "requested_execution_level": "asInvoker",
+  "publisher_display_name": "F16V-PoBit",
+  "signature": {
+    "status": "NotSigned",
+    "reason": "No public code-signing certificate supplied"
+  },
+  "connector_signature": {
+    "status": "NotSigned",
+    "reason": "No public code-signing certificate supplied"
+  },
+  "connector_sources": {
+    "connector.cpp": {
+      "sha256": "2274f4a7778d9a77819cbcef5b061e5e8156a399c62cfee146b1f199aedd0197",
+      "size": 1860
+    },
+    "version.rc": {
+      "sha256": "9c6c7fe0232e9501231239c61f25697fb4425d35338df7b7b4abd9ebd1fd5664",
+      "size": 644
+    }
+  },
+  "binaries": {
+    "F16V-PoBit.exe": {
+      "sha256": "8873213684702ae9e3a92616f92adb8f7a1cad20ae92587b7aa2fc43616610e0",
+      "size": 3311936
+    },
+    "Software/_asyncio.pyd": {
+      "sha256": "746bc8fa88282afe19dc60e426cc0a75bea3bd137cca06a0b57a30bd31459403",
+      "size": 65304
+    },
+    "Software/_bz2.pyd": {
+      "sha256": "00b8ca9a338d2b47285c9e56d6d893db2a999b47216756f18439997fb80a56e3",
+      "size": 84760
+    },
+    "Software/_ctypes.pyd": {
+      "sha256": "c148292328f0aab7863af82f54f613961e7cb95b7215f7a81cafaf45bd4c42b7",
+      "size": 124696
+    },
+    "Software/_decimal.pyd": {
+      "sha256": "980a63f2b39cf16910f44384398e25f24482346a482addb00de42555b17d4278",
+      "size": 255768
+    },
+    "Software/_hashlib.pyd": {
+      "sha256": "87dd0c858620287454fd6d31d52b6a48eddbb2a08e09e8b2d9fdb0b92200d766",
+      "size": 65304
+    },
+    "Software/_lzma.pyd": {
+      "sha256": "f5e01b516c2c23035f7703e23569dec26c5616c05a929b2580ae474a5c6722c5",
+      "size": 159512
+    },
+    "Software/_multiprocessing.pyd": {
+      "sha256": "975c1947798e3c39898c86675ca1eb68249f77361f41f172f9800275227213b9",
+      "size": 34584
+    },
+    "Software/_overlapped.pyd": {
+      "sha256": "ca106e4dfdeafeabf9e98956d3d8d0cb73e109f1a96f1a7e35bc47dbd7c7e164",
+      "size": 51480
+    },
+    "Software/_queue.pyd": {
+      "sha256": "3f8e7e6aa13b417acc78b63434fb1144e6319a010a9fc376c54d6e69b638fe4c",
+      "size": 32024
+    },
+    "Software/_socket.pyd": {
+      "sha256": "a19e3c7c03ef1b5625790b1c9c42594909311ab6df540fbf43c6aa93300ab166",
+      "size": 79640
+    },
+    "Software/_ssl.pyd": {
+      "sha256": "ba5388d6a6557d431e086734a3323621dc447f63ba299b0a815e5837cf869678",
+      "size": 178456
+    },
+    "Software/_tkinter.pyd": {
+      "sha256": "6f7bdc2f60a1795b58ec7015ec262d6b234aa8d0f022185de0f52bac4adab449",
+      "size": 64280
+    },
+    "Software/_uuid.pyd": {
+      "sha256": "e6aa7f1637e211251c9d6f467203b2b6d85e5bc2d901699f2a55af637fa89250",
+      "size": 25368
+    },
+    "Software/api-ms-win-core-console-l1-1-0.dll": {
+      "sha256": "015bd08815c7b934a8952c3a7578e9ce59f21136e8a880d42bbd414bec2c6058",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-datetime-l1-1-0.dll": {
+      "sha256": "5534812cdbdae94ba45cb216e5eb9af686b853948df54365103555abbbaf9d9a",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-debug-l1-1-0.dll": {
+      "sha256": "837d2b1b2cd03e03fc6ccb050698b6b5763af17c201304872342a5eae9e0a2d2",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-errorhandling-l1-1-0.dll": {
+      "sha256": "de43b165f568c276c00e95acd454e3092f352a18e95874595f4f4658c06d2ec7",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-fibers-l1-1-0.dll": {
+      "sha256": "3cebc45bf479ad74cfabf2c6bfd4994d7ad639ed1221025981d19cedf9ce0416",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-fibers-l1-1-1.dll": {
+      "sha256": "5ef70308bcca628ce6b0e2856b15b1c7ae340c3f9bbbc4c1071d8c191a34a5c3",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-file-l1-1-0.dll": {
+      "sha256": "250ac829f2617bcac1c6e5b8c4f630462e20765863ba573526a3e11bbfb94a9a",
+      "size": 27008
+    },
+    "Software/api-ms-win-core-file-l1-2-0.dll": {
+      "sha256": "ae14079a114733f60ce87b92cba42acd8083c2cd67594e53bc37dc0b97a4b465",
+      "size": 22888
+    },
+    "Software/api-ms-win-core-file-l2-1-0.dll": {
+      "sha256": "914bf26a298713119477ea0a8e7bd43171b91344ebe24fb47ad77c49686e3d87",
+      "size": 22912
+    },
+    "Software/api-ms-win-core-handle-l1-1-0.dll": {
+      "sha256": "ab5489955e371b15f77906c08ec3c7affe2c7a46a08c514ca628768b4478974b",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-heap-l1-1-0.dll": {
+      "sha256": "c70f9644d8377fa39c5b71f2e9734c1400d7598904fdeb772e8502099982dcb7",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-interlocked-l1-1-0.dll": {
+      "sha256": "f8129710188e407bb0e6f46d30aeba277d67b947ece5fe09e883fde2323f3ae6",
+      "size": 22888
+    },
+    "Software/api-ms-win-core-kernel32-legacy-l1-1-1.dll": {
+      "sha256": "5200b16cb2ddc61cfc07373a9a84aa85a3ab50806ca96c879c883275832944c1",
+      "size": 22888
+    },
+    "Software/api-ms-win-core-libraryloader-l1-1-0.dll": {
+      "sha256": "48786fb88b001dcd1f63acea903d3ca9cc0b3060d5a325e3f2f3cbc3bfd53166",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-localization-l1-2-0.dll": {
+      "sha256": "9ec3898f7eba91faa28b51616c211a2689e3a13aeef8de6e13cb674e49d689eb",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-memory-l1-1-0.dll": {
+      "sha256": "3a6cbc524c99e1cd80d5368f5601402a37ad602528b1ab628093573ef638eb3b",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-namedpipe-l1-1-0.dll": {
+      "sha256": "97145ef89c44949fcf0f04ac834a8bc7d687ef49ee73ae9fc32f3c11136b7201",
+      "size": 22888
+    },
+    "Software/api-ms-win-core-processenvironment-l1-1-0.dll": {
+      "sha256": "8bc7c10b1851aea644e9c9f381cdb935e091fee6b0be3d3aedc6fffaac96adb7",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-processthreads-l1-1-0.dll": {
+      "sha256": "d8030b777617c71f0f94564607699dbf7561487d779db9756aed378c5675213f",
+      "size": 22912
+    },
+    "Software/api-ms-win-core-processthreads-l1-1-1.dll": {
+      "sha256": "f5e676713340f73a03a3d41a6ec9883b431da7d16c7f07bd0a920fb80e6c0753",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-profile-l1-1-0.dll": {
+      "sha256": "f023d47e44d3eea6b0743580f57e8c6ba81e79d5ebfa7da26250076c647b980e",
+      "size": 22872
+    },
+    "Software/api-ms-win-core-rtlsupport-l1-1-0.dll": {
+      "sha256": "9746d8930704153578a628c010638a5f818ffe5a927e25591b108e256dc6afca",
+      "size": 22888
+    },
+    "Software/api-ms-win-core-string-l1-1-0.dll": {
+      "sha256": "7c53ae24c982d16ffd1bf7f918d115b11b7f30e57bc7feaa18cb9781e4abb926",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-synch-l1-1-0.dll": {
+      "sha256": "56d9d62ca5dba79a6581b8d574a7d8b2a64a5ecb71e47dcf06ed0285708b1859",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-synch-l1-2-0.dll": {
+      "sha256": "f6482bbec5612c39ecb4822787a333f2b7570f7a5f922a4059be41ba957bb372",
+      "size": 22888
+    },
+    "Software/api-ms-win-core-sysinfo-l1-1-0.dll": {
+      "sha256": "272d02765fdd3582618236c2d309abba069642f9bc1062ede069d0c144e17007",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-sysinfo-l1-2-0.dll": {
+      "sha256": "8a0900788859d0eb51c2f48f50cc6ed376a120b518100fa20e11d7702ccde260",
+      "size": 22912
+    },
+    "Software/api-ms-win-core-timezone-l1-1-0.dll": {
+      "sha256": "ff35de6c03812b332e140f17dade25c5dd4775156da9eeb1eaae3fddd27236ec",
+      "size": 22896
+    },
+    "Software/api-ms-win-core-util-l1-1-0.dll": {
+      "sha256": "191ef3e98641a57296f19d572d8eb62489470ff1ef6030d136af170c2f835173",
+      "size": 22896
+    },
+    "Software/api-ms-win-crt-conio-l1-1-0.dll": {
+      "sha256": "54ee5ec719a051496ff60aa00dbeaa94b9a7d2cdac27fe9b7317f1a666b6a2aa",
+      "size": 22872
+    },
+    "Software/api-ms-win-crt-convert-l1-1-0.dll": {
+      "sha256": "8b94662429171019fcd63c70bbf2095a075170599704a5e7dcdbe3da13f3a429",
+      "size": 26992
+    },
+    "Software/api-ms-win-crt-environment-l1-1-0.dll": {
+      "sha256": "39e5929593709e8af3bc9e0a75ec1155778d6f4a247f4cdfc58928ad6db88434",
+      "size": 22912
+    },
+    "Software/api-ms-win-crt-filesystem-l1-1-0.dll": {
+      "sha256": "5a8ecebac32edf4e1f3c5c6c1c8ea1a1add6cda4f9c9cb26f752fb295bea6865",
+      "size": 22872
+    },
+    "Software/api-ms-win-crt-heap-l1-1-0.dll": {
+      "sha256": "c71080cbcb43bf1f8f3e391deb12a582eb0abefc80946f340675a2c616e4feb4",
+      "size": 22872
+    },
+    "Software/api-ms-win-crt-locale-l1-1-0.dll": {
+      "sha256": "6c68648e524187e03c4ad9aaa4a99113c6ee9f29fb39cc0ed93f951975138e63",
+      "size": 22896
+    },
+    "Software/api-ms-win-crt-math-l1-1-0.dll": {
+      "sha256": "d4fbcccbe29371cbce431e43b2eb4f7ba9a6f04a3d740a071f02457a505e9dc8",
+      "size": 31064
+    },
+    "Software/api-ms-win-crt-process-l1-1-0.dll": {
+      "sha256": "47c1935942e3ac0812e4dcf18c0e265e565f0194a3349111c299712f5565f7ac",
+      "size": 22896
+    },
+    "Software/api-ms-win-crt-runtime-l1-1-0.dll": {
+      "sha256": "72adc1b3677e0814d9c4ebf0964000e84bb2acf67336c8963061665e44f78029",
+      "size": 26968
+    },
+    "Software/api-ms-win-crt-stdio-l1-1-0.dll": {
+      "sha256": "900afc3989673c9bb1a687ed38c192f46db9e6ba6d11a668898a539e7fc23798",
+      "size": 26968
+    },
+    "Software/api-ms-win-crt-string-l1-1-0.dll": {
+      "sha256": "fcf12466cc12fd3b73611fc0763a5a1f9d44e90349513c34a0c83b0f36421793",
+      "size": 26968
+    },
+    "Software/api-ms-win-crt-time-l1-1-0.dll": {
+      "sha256": "886e57c4a6adb299b38f02945369f590a67da4e79a798359fc60aaa067212d7c",
+      "size": 22912
+    },
+    "Software/api-ms-win-crt-utility-l1-1-0.dll": {
+      "sha256": "5f8f26b216ade615b67a41f6fbbb910972fc6153315a65bb8f09912be50215b1",
+      "size": 22912
+    },
+    "Software/bsdiff4/core.cp311-win_amd64.pyd": {
+      "sha256": "929556ec093a5b78c35f7282720943141f43a51972682677143fcaa9d9841711",
+      "size": 18432
+    },
+    "Software/DataLink/F16V_Connector.dll": {
+      "sha256": "a06effdb37c9ea6e89974885bbc7e25abc239858afdc4e8899fc264b41c59b73",
+      "size": 12288
+    },
+    "Software/libcrypto-3.dll": {
+      "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de",
+      "size": 5191960
+    },
+    "Software/libffi-8.dll": {
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+      "size": 39696
+    },
+    "Software/libssl-3.dll": {
+      "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006",
+      "size": 787224
+    },
+    "Software/pyexpat.pyd": {
+      "sha256": "c7c7564f7f874fb660a46384980a2cf28bc3e245ca83628a197ccf861eab5560",
+      "size": 199448
+    },
+    "Software/python311.dll": {
+      "sha256": "0817a2a657a24c0d5fbb60df56960f42fc66b3039d522ec952dab83e2d869364",
+      "size": 5800216
+    },
+    "Software/select.pyd": {
+      "sha256": "bae0974390945520eb99ab32486c6a964691f8f4a028ac408d98fa8fb0db7d90",
+      "size": 30488
+    },
+    "Software/tcl86t.dll": {
+      "sha256": "4e699ff2d6d147d0586c8c77be5a18f20ca0758f432d7b0f489223f2fa4dd221",
+      "size": 1871128
+    },
+    "Software/tk86t.dll": {
+      "sha256": "b6af038120f2b8644c7ce1e11917f410009848287622135d7e386f90d28a831c",
+      "size": 1546520
+    },
+    "Software/ucrtbase.dll": {
+      "sha256": "3239227d27667ba20d10a880751924e5719de0078f9fce232d149d383f7681f6",
+      "size": 1362264
+    },
+    "Software/unicodedata.pyd": {
+      "sha256": "37c68617fa02a2cadced17ef724e2d450ef12a8a37215da789a4679fde1c5c02",
+      "size": 1140504
+    },
+    "Software/VCRUNTIME140.dll": {
+      "sha256": "4d292623516f65c80482081e62d5dadb759dc16e851de5db24c3cbb57b87db83",
+      "size": 119192
+    }
+  },
+  "provider_reference": {
+    "package": "23",
+    "path": "改造/公共入口/DataLink同轮读取优化20261023/Release/DataLink/files/CoreMods/aircraft/F-16C/bin/F16_POBIT_Access.dll",
+    "sha256": "31fdfc6cf9faf7d53e67898f2b09341dbe3eb472744fe3f977efccc33e92c30a",
+    "record": "LOG/公共入口/DataLink同轮读取优化20261023/Publication.json",
+    "owner": "DataLink专项用户发布成品",
+    "rebuild_by_core": false
+  },
+  "antivirus_verdict": "Not certified; vendor analysis is independent of signing and metadata",
+  "based_on": {
+    "path": "改造/发布更新/安装器WarHUD默认CG20261029/Release/F16V-PoBit",
+    "source": "改造/发布更新/安装器WarHUD默认CG20261029/app",
+    "sha256": "44a5ca8a0107e482938bbb4faa29ce6109eb7ee1a8144ce14c2aa8d33d247851",
+    "version": "1.1.19",
+    "version_metadata": "改造/发布更新/安装器WarHUD默认CG20261029/Release/F16V-PoBit/Software/Version.json",
+    "record": "LOG/安装器/WarHUD默认CG20261029/软件投递.json"
+  },
+  "payload_policy": {
+    "acceptance": "component_identity",
+    "update_detection": "version_only",
+    "payload_hash_gate": false,
+    "same_version_reapply": true
+  }
+}

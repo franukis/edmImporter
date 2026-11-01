@@ -1,0 +1,14 @@
+﻿DataLink: PENDING VERIFICATION
+Start the module to verify the current Core and DataLink installation. No fresh report; the previous connection verification is retained.
+
+Current missing or unverified items:
+- Session and current sample
+- Navigation information
+- Sensor information
+- Input focus
+- Stores and weapons
+- Fuel information
+- Display power information
+- Data source connection
+
+PASS applies to the verified active game session. Core/DataLink changes and normal session closure require verification again; FAIL means an observed connection loss during that session.

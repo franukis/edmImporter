@@ -1,0 +1,25 @@
+#### Ignore your specific heavy folders
+
+Repository/
+Updates/ 
+Software/Records/
+
+#### Ignore common OS junk files
+
+.DS_Store
+Thumbs.db
+desktop.ini 
+
+#### Ignore typical development environment files
+
+.vscode/
+.idea/
+*.log
+
+#### Ignore heavy cache and installation records
+Software/Records/
+*.zip
+*.dds
+*.lods
+*.tar
+*.gz
